@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Caminata Aleatoria</title>
+</head>
+<body>
+    <main>
+        <div class="header">
+            <h1>Caminata Aleatoria</h1>
+        </div>
+        <div class="enunciado">
+            <label for="num-caminatas">Introduce el numero de caminatas Aleatorias que quieres realizar</label>
+            <input name="num-caminatas" class="num-caminatas" id="num-caminatas" type="number" value=1 >
+            <button class="graficar" onclick=" graficar()"> Graficar </button>
+        </div>
+        <div id="grafico"></div>
+    
+        <div class="calcular-datos">
+            <button class="calculos" onclick=" calcPromedio()"> Calcular datos </button>
+            <div>
+                <label for="promedio">Promedio de pasos requeridos para terminar el juego</label>
+                <input name="promedio" class="promedio" id="promedio" type="number"  >
+            </div>
+            <div>
+                <label for="perdidas">Numero de partidas perdidas</label>
+                <input name="perdidas" class="perdidas" id="perdidas" type="number"  >
+            </div>
+            <div>
+                <label for="ganadas">Numero de partidas ganadas</label>
+                <input name="ganadas" class="ganadas" id="ganadas" type="number"  >
+            </div>
+        </div>
+
+    </main>
+    
+    
+    
+</body>
+</html>
