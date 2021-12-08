@@ -1,3 +1,29 @@
+# Resolución de problema
+
+La solución fue generada con Angular versión 13
+
+## Ejecutar demo
+
+1. Descarga el repositorio en la rama `caminata-joseVargas`:
+    
+    `git clone https://github.com/PlatziMaster/Ejercicio_CaminataAleatoria.git`
+
+    `git checkout caminata-joseVargas`
+
+2. Instala las dependencias `npm install`
+3. Ejecuta la aplicación `npm start`
+
+## Como usar la aplicación
+La interfaz consta de un botón `run game` y dos inputs, uno para configurar el porcentaje de perdida del usuario y el segundo para activar el movimiento en x
+
+El primer input se debe ajustar con un valor entre 0 y 100 antes de oprimir el botón `run game`
+
+El segundo input se debe seleccionar si se quiere activar el movimiento aleatorio en X
+
+### Ejecutar juego
+Una vez oprimido el botón `run game` el programa empezara a generar una grafica dependiendo si la cantidad de dinero llega a 0 o a 30. Si llega a 0 el juego automaticamente reinicia los valores por defecto (x:0 y:0 money:20) y vuelve a hacer una iteración automatica. si el valor de dinero llega a 30 el programa se detiene por completo
+
+
 # Ejercicio_CaminataAleatoria
 En este ejercicio veremos cómo hacer una simulación de una caminata aleatoria.
 ## Descripción
