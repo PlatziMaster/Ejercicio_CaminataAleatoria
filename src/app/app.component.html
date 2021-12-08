@@ -1,0 +1,16 @@
+<h1>Caminata</h1>
+<button (click)="initGame()" *ngIf="!startGame">Run Game</button>
+<label>
+  Porcentaje perder
+  <input type="number" [(ngModel)]="percent" [disabled]="startGame">
+</label>
+<label>
+  Activar moviento en X
+  <input type="checkbox" [disabled]="startGame" [(ngModel)]="activateXMovement">
+  {{activateXMovement}}
+</label>
+<p>Money: {{money}}</p>
+<p>X point: {{pointX}}</p>
+<p>Y pint {{pointY}}</p>
+<p>Iteración {{iteration}}</p>
+<canvas id="myChart" style="width: 100%;"></canvas>
