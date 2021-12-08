@@ -6,7 +6,7 @@ La solución fue generada con Angular versión 13
 
 1. Descarga el repositorio en la rama `caminata-joseVargas`:
     
-    `git clone https://github.com/PlatziMaster/Ejercicio_CaminataAleatoria.git`
+    `git clone https://github.com/j0s3v4rg4s/Ejercicio_CaminataAleatoria.git`
 
     `git checkout caminata-joseVargas`
 
